@@ -1,0 +1,22 @@
+{
+  // "extends": "@tsconfig/strictest/tsconfig.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["ESNext", "DOM"],
+    "moduleDetection": "force",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "resolveJsonModule": true,
+    "types": [],
+    "declaration": true,
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true,
+    "outDir": "dist/src",
+    "rootDir": "src",
+    "jsx": "react-jsx",
+    "paths": {
+      "#/*": ["./src/*"]
+    }
+  },
+  "include": ["src"]
+}
