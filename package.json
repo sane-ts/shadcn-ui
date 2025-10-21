@@ -1,6 +1,6 @@
 {
   "name": "@sane-ts/shadcn-ui",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Shadcn UI Package",
   "type": "module",
   "license": "MIT",
