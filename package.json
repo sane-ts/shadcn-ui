@@ -18,10 +18,7 @@
   "types": "./src/index.d.ts",
   "typings": "./src/index.d.ts",
   "imports": {
-    "#*": {
-      "import": "./src/*.tsx",
-      "default": "./src/*.ts"
-    }
+    "#*": "./src/*.js"
   },
   "exports": {
     ".": "./src/index.js",
@@ -33,8 +30,8 @@
   "sideEffects": false,
   "scripts": {
     "ts": "tsc --noEmit",
-    "release": "bash build.bash && cd dist && pnpm publish --access public",
-    "build": "bash build.bash"
+    "release": "pnpm build && cd dist && pnpm publish --access public",
+    "build": "rm -rf dist && tsc && cp README.md package.json dist && cp src/index.css dist/src"
   },
   "peerDependencies": {
     "react": "^19.2.0",
