@@ -4,6 +4,3 @@ dist
 .DS_Store
 tsconfig.tsbuildinfo
 draft-*
-
-src/components
-src/hooks
