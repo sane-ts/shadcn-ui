@@ -25,6 +25,7 @@
     "./ui": "./src/ui.js",
     "./ui/*": "./src/components/ui/*.js",
     "./lucide": "./src/lucide.js",
+    "./react-hook-form": "./src/react-hook-form.js",
     "./index.css": "./index.css",
     "./themes/*": "./themes/*"
   },
