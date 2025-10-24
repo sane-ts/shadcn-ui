@@ -24,6 +24,7 @@
     ".": "./src/index.js",
     "./ui": "./src/ui.js",
     "./ui/*": "./src/components/ui/*.js",
+    "./lucide": "./src/lucide.js",
     "./index.css": "./index.css",
     "./themes/*": "./themes/*"
   },
