@@ -14,7 +14,9 @@ Add these to your your tailwind css file:
 
 ```diff
   @import "tailwindcss";
-+ @import "../node_modules/@sane-ts/shadcn-ui/src/index.css";
++ @import "@sane-ts/shadcn-ui/index.css";
++ @import "@sane-ts/shadcn-ui/themes/zinc.css";
+
 + @source "../node_modules/@sane-ts/shadcn-ui/src/**/*.js";
 ```
 
