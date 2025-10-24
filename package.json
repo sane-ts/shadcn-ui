@@ -24,14 +24,14 @@
     ".": "./src/index.js",
     "./ui": "./src/ui.js",
     "./ui/*": "./src/components/ui/*.js",
-    "./index.css": "./src/index.css",
+    "./index.css": "./index.css",
     "./themes/*": "./themes/*"
   },
   "sideEffects": false,
   "scripts": {
     "ts": "tsc --noEmit",
     "release": "pnpm build && cd dist && pnpm publish --access public",
-    "build": "rm -rf dist && tsc && cp -r README.md package.json themes dist && cp src/index.css dist/src"
+    "build": "rm -rf dist && tsc && cp -r README.md package.json index.css themes dist"
   },
   "peerDependencies": {
     "react": "^19.2.0",

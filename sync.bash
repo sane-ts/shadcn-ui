@@ -1,6 +1,6 @@
 set -e
 
-rm -rf src/components src/hooks pnpm-lock.yaml node_modules
+rm -rf src/components src/hooks
 
 # https://ui.shadcn.com/docs/installation/manual
 
