@@ -7,8 +7,8 @@
     "declaration": true,
     "verbatimModuleSyntax": true,
     "erasableSyntaxOnly": true,
-    "outDir": "dist/src",
-    "rootDir": "src",
+    "outDir": "dist",
+    "rootDir": ".",
     "noPropertyAccessFromIndexSignature": false,
     "exactOptionalPropertyTypes": false,
 
