@@ -9,7 +9,7 @@ cat package.json.bak | jq '.dependencies = {}' > package.json
 rm package.json.bak
 pnpm install
 
-pnpm add class-variance-authority clsx tailwind-merge lucide-react tw-animate-css
+pnpm add class-variance-authority clsx tailwind-merge lucide-react tw-animate-css @tailwindcss/typography
 pnpx shadcn@latest add --all
 pnpx shadcn@latest migrate radix -y
 
