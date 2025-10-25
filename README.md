@@ -1,5 +1,7 @@
 # Shadcn UI Package
 
+Contains all shadcn-ui components and hooks in `src/components` and `src/hooks` which are regularly updated by `sync.bash` script.
+
 ## Install
 
 You need to have [tailwind](https://tailwindcss.com) installed and configured.
@@ -12,20 +14,18 @@ pnpm add @sane-ts/shadcn-ui tailwindcss
 
 Add these to your your tailwind css file:
 
-```diff
-  @import "tailwindcss";
-+ @import "@sane-ts/shadcn-ui/index.css";
-+ @import "@sane-ts/shadcn-ui/themes/zinc.css";
-
-+ @source "../node_modules/@sane-ts/shadcn-ui/src/**/*.js";
-
-+ @layer base {
-+   * {
-+     @apply border-border outline-ring/50;
-+   }
-+   body {
-+     @apply bg-background text-foreground;
-+   }
+```css
+@import "tailwindcss";
+@import "@sane-ts/shadcn-ui/index.css";
+@import "@sane-ts/shadcn-ui/themes/zinc.css";
+@source "../node_modules/@sane-ts/shadcn-ui/src/**/*.js";
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
 }
 ```
 
