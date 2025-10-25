@@ -1,6 +1,6 @@
 set -e
 
-rm -rf src/components src/hooks
+rm -rf src/components/ui src/hooks
 
 # https://ui.shadcn.com/docs/installation/manual
 
