@@ -41,3 +41,5 @@ export function App() {
   return <Button onClick={onClick} children={count} />;
 }
 ```
+
+Check out vite project [example](https://github.com/valerii15298/sane-cn-example)
