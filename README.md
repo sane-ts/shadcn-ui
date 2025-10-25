@@ -5,7 +5,7 @@
 You need to have [tailwind](https://tailwindcss.com) installed and configured.
 
 ```bash
-pnpm add @sane-ts/shadcn-ui tailwind
+pnpm add @sane-ts/shadcn-ui tailwindcss
 ```
 
 ## Usage
@@ -18,6 +18,15 @@ Add these to your your tailwind css file:
 + @import "@sane-ts/shadcn-ui/themes/zinc.css";
 
 + @source "../node_modules/@sane-ts/shadcn-ui/src/**/*.js";
+
++ @layer base {
++   * {
++     @apply border-border outline-ring/50;
++   }
++   body {
++     @apply bg-background text-foreground;
++   }
+}
 ```
 
 Import and use components
